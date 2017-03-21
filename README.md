@@ -1,15 +1,11 @@
-# advanced_optimization_pmu_wip
-Thoughts on future development, Phase II 
-Possible future development 
-Notes and thoughts 
-After completion of phase I
-Big goals
+# advanced_optimization_pmu
+Thoughts on advanced optimization
 Issues to overcome
 Supporting modules 
 Separate control without effect to other systems in an adverse way
 Controllably 
 Manageable strategy
-4D modeling
+4D modeling?
 Flow dynamics 
 Atomic accounting 
 Precision & Flexibility
@@ -17,7 +13,7 @@ Current strategy do not allow for anything other than a plane-1 Instead of follo
 Thought is toward the ability to target a point on the plane and not follow a single linear line array 
 Rather allowing for a flexable strategy that can control the rate of current as needed for better management of the state of charge,the rate of charge induced and the rate of charge drain.
 For a 4D model this may be possible as the "linear" plane can be tracked and monitored.
-The target empty and target max models can be designed based on the parameters that can be used to characterize the coefficients and the laws of the coefficients to a 3D model similar to a cube, but more flexible and dynamic
+The target empty and target max models can be designed based on the parameters that can be used to characterize the coefficients and the laws of the coefficients to a 3D model similar, but more flexible and dynamic
 The exact qualities of the empty target and the exact qualities of the the full target will characterize the linear plane of the 4th dimensional plane or the linear plane-1
 The linear plane will be able to represent the level of the state of charge as it tracks the current induced or the current drained
 being able to know the exact qualities of the target can flexibly manage the current flow with reference sensors used for temperature managment, current flow managment.
@@ -29,3 +25,5 @@ This will require the use of %shaders, which is not currently supported to this 
 V2 TTL DMM required 
 Invesense using sensors at our disposal. Coding "KISS" style, simplicity when possible for performance. Coding for limiting intrusive behavior causing unwanted drain with stability and performance an equal goal. 
 Thoughtful design. Testing of current platforms for proof of concept. Keeping newer designs in mind. Applying proof of concept to new technology.
+modeling perhaps not a requirement for 4D 
+The shape of the image object is characterized by the elements that make up the image. I max and I min are boundaries of the image. When ++i or --i are of an offset to the original image width and height the boundaries(limits)  of the object and its character are changed. When the characteristics of the elements shapes that make up the image object change the object shape changes. A dispersment to the shape of the object. When an element shape fluctuate by their defined boundaries each element height or width is changed. Convergence accures when the normal behavior of the elements returns and the image object retutns to its normal defined character. When weighted members pull object from its normal shape due to undefined behavior the shape of the obkect and its elements become abnormal. When reshaping of the object and its elements is performed the resulting float point of the image object is not at the same point even though its shape has convergence. Whrn this occures new boundaries have been defined. And adjustment to strategies for defines must be made to adjust for the new characteristic behavior of the image object. Thus new limits and boundaries and paths from 0 to 1 are made. If 0 is the low state 0 at a defined point and max is a high state 1 at a defined point and strategies of boundaries are defined and all characteristic behavior are able to be defined then the float point of the image object can be tracked from the low state to the high state. If characteristic defines of elements occures by a defined strategy the image shape will change but can be tracked. Convergence could occur by conditions being within normal defined states at any float point and convergence would occur at 0 and 1 states. If convergence occurs and shape of image is not as expected then new undefined elements have caused the object to lose convergence. A limit to the amount of reshaping allowed is necessary as redefining the image may push boundaries to far from the original image path and build up excessive heat as ++z. When reshaping each element by design each elememt is then --x ++x , --y ++y and also require boundaries for there shapes to prevent them from being outside of a proper behavior characteristic that would be desired or obtainable as defined by laws of real physics element abilities. Can not break the laws of physics. Characteristic behavior is offloaded to gcc for storage and can be callex when needed or characterization requires refreshing.
