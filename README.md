@@ -3,13 +3,12 @@ Thoughts on advanced optimization
 Issues to overcome
 Supporting modules 
 Separate control without effect to other systems in an adverse way
-Controllably 
-Manageable strategy
-4D modeling?
+Controllably
+Management strategy
 Flow dynamics 
 Atomic accounting 
 Precision & Flexibility
-Current strategy do not allow for anything other than a plane-1 Instead of following a plane-1 target a point on the plane.
+Current strategy do not allow for anything other than a plane-1 I
 Thought is toward the ability to target a point on the plane and not follow a single linear line array 
 Rather allowing for a flexable strategy that can control the rate of current as needed for better management of the state of charge,the rate of charge induced and the rate of charge drain.
 For a 4D model this may be possible as the "linear" plane can be tracked and monitored.
